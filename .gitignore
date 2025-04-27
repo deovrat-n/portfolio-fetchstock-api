@@ -1,0 +1,50 @@
+# Python
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.pdb
+
+# Virtual environment
+venv/
+env/
+.venv/
+.env/
+
+# Distribution / Packaging
+*.egg-info/
+dist/
+build/
+.eggs/
+pip-wheel-metadata/
+
+# IDE/editor files
+.vscode/
+.idea/
+
+# Pytest
+*.log
+*.coverage
+.coverage.*
+nosetests.xml
+coverage.xml
+*.hypothesis/
+
+# Docker files
+Dockerfile
+docker-compose.yml
+
+# FastAPI specific
+*.sqlite
+*.db
+*.db-journal
+*.log
+
+# Secret files
+.env
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+
+# PyCharm
+*.iml
